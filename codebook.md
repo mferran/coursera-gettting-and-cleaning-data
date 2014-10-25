@@ -11,7 +11,7 @@
 subject - The participant ("subject") ID
 activity - The label of the activity performed when the corresponding measurements were taken
 
-## Extracted Fields 
+## Extracted Fields ( all fields representing means or std values)
 
 * tBodyAcc-mean()-X (column 1)
 * tBodyAcc-mean()-Y (column 2)
