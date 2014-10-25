@@ -29,21 +29,15 @@ allData <- allData[,colsWeWant]
 # Add the column names (features) to allData
 colnames(allData) <- c(features$V2, "Activity", "Subject")
 colnames(allData) <- tolower(colnames(allData))
-
 currentActivity = 1
 for (currentActivityLabel in activityLabels$V2) {
         allData$activity <- gsub(currentActivity, currentActivityLabel, allData$activity)
         currentActivity <- currentActivity + 1
 }
-
 allData$activity <- as.factor(allData$activity)
 allData$subject <- as.factor(allData$subject)
 
 #Creates a second, independent tidy data set with the average of each variable for each activity and each subject
-
 tidy = aggregate(allData, by=list(activity = allData$activity, subject=allData$subject), mean)
-# Remove the subject and activity column, since a mean of those has no use
-tidy[,90] = NULL
-tidy[,89] = NULL
-write.table(tidy, "tidy.txt", sep="\t")
+write.table(tidy, "tidydata.txt", sep="\t")
 
