@@ -1,9 +1,5 @@
 #coursera-gettting-and-cleaning-data
 ===================================
-1. objective: "Describe how the script run_analysis.R works" 
-2. author: "Myriam Ferran"
-3. date: "25 octobre 2014"
-
 ##Introduction
 
 This document describes how to the script run_analysis.R works in the context of the Getting and Cleaning Data project for coursera class.
