@@ -8,8 +8,8 @@
 
 ## ID Fields
 
-subject - The participant ("subject") ID
-activity - The label of the activity performed when the corresponding measurements were taken
+* subject - The participant ("subject") ID
+* activity - The label of the activity performed when the corresponding measurements were taken
 
 ## Extracted Fields ( all fields representing means or std values)
 
