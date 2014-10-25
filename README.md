@@ -25,5 +25,5 @@ The unzipped data set should be registered under the working directory of R
 
 ##CodeBook.md file 
 
-Please refer to the CodeBook.md file for more detailled explanation of the transformations performed.
+Please refer to the CodeBook.md file for more details about the variables.
 
