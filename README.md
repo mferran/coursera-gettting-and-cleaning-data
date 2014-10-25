@@ -23,3 +23,7 @@ The unzipped data set should be registered under the working directory of R
 6. Step 6 - Compute the mean on the subset dataset
 7. Step 7 - Save the file as tidy.txt file
 
+##CodeBook.md file 
+
+Please refer to the CodeBook.md file for more detailled explanation of the transformations performed.
+
